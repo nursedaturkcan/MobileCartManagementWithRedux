@@ -1,3 +1,24 @@
+This project involves developing a mobile application using React Native, and it consists of a shopping application.
+
+CartScreen.js: This screen manages the content of the shopping cart and its functionalities. It lists the items in the cart and allows users to increase, decrease, or remove the quantity of each item.
+
+BookScreen.js: The main screen where books are listed. It displays a list of books and allows users to add them to the cart.
+
+ShoppingCartIcon.js: A component containing the shopping cart icon. It displays the number of items in the cart and directs users to the CartScreen.
+
+redux: The application state is managed using Redux. Actions such as ADD_TO_CART, REMOVE_TO_CART, INCREASE_QUANTITY, and DECREASE_QUANTITY are used to update the cart's content and quantity.
+
+react-navigation: Provides navigation functionality within the application, allowing navigation between the Books and Cart screens.
+
+The project includes a main screen listing books and a shopping cart screen with the ability to add, increase/decrease quantity, and remove items from the cart. Redux is used to manage the application state, and react-navigation facilitates navigation between screens. Both screens have a user-friendly interface and display the total price of the cart.
+Preview: 
+
+
+https://github.com/nursedaturkcan/MobileCartManagementWithRedux/assets/129687664/ba2d4a71-2ddf-4114-bbe2-1d93f0d9e88a
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
